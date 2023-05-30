@@ -10,8 +10,8 @@
 
 ```shell
 sudo pacman -S --needed base-devel
-git clone https://github.com/Fuwn/nectar.git
-cd nectar/archlinux
+git clone https://aur.archlinux.org/nectar.git
+cd nectar
 makepkg -si
 ```
 
