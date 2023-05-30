@@ -6,6 +6,15 @@
 
 ## Installation
 
+### Arch Linux
+
+```shell
+sudo pacman -S --needed base-devel
+git clone https://github.com/Fuwn/nectar.git
+cd nectar/archlinux
+makepkg -si
+```
+
 ### *Building* From Source
 
 [Bashly](https://bashly.dannyb.co/) is required to *build* Nectar.
