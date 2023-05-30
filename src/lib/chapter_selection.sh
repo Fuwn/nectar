@@ -1,7 +1,7 @@
 chapter_selection() {
 	# Novel page HTML
 	novel_page="$(gum spin --spinner line --show-output -- \
-    curl --silent --get --data-urlencode "k=${args[title]}" "${1}")"
+		curl --silent --get --data-urlencode "k=${args[title]}" "${1}")"
 
 	# Chapter data
 	IFS=$'\n' read -r -d '\n' -a chapter_locations <<<"$(echo "${novel_page}" |
@@ -14,7 +14,7 @@ chapter_selection() {
 
 	# Fix output format for Gum
 	for ((i = 0; i < "${#chapter_locations[@]}"; i++)); do
-		chapters+="$(printf "\nChapter ${i}:%s" "${chapter_names[${i}]}")"
+		chapters+="$(printf "\nChapter $((i + 1)):%s" "${chapter_names[${i}]}")"
 	done
 
 	# Remove leading new-line
