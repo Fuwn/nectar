@@ -44,7 +44,7 @@ Complete Nectar *builds* can be located in the *[Releases](https://github.com/Fu
 
 ## Usage
 
-### Dependencies
+### Dependencies (bundled in AUR)
 
 - [Gum](https://github.com/charmbracelet/gum/)
 - [pup](https://github.com/ericchiang/pup)
