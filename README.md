@@ -4,6 +4,8 @@
   <b>Command-line <a href="https://www.honeyfeed.fm/">Honeyfeed</a> Reader</b>
 </p>
 
+[![asciicast](https://asciinema.org/a/VOYQVTlC7zg1c5OfXhtsz07ed.svg)](https://asciinema.org/a/VOYQVTlC7zg1c5OfXhtsz07ed)
+
 ## Installation
 
 ### Arch Linux
