@@ -25,6 +25,15 @@ Complete Nectar *builds* can be located in the *[Releases](https://github.com/Fu
 
 ## Usage
 
+### Dependencies
+
+- [Gum](https://github.com/charmbracelet/gum/)
+- [pup](https://github.com/ericchiang/pup)
+- [Pandoc](https://pandoc.org/)
+- [Glow](https://github.com/charmbracelet/glow)
+
+### Help
+
 ```
 nectar - Command-line Honeyfeed Reader
 
