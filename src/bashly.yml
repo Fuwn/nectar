@@ -1,0 +1,34 @@
+name: nectar
+help: Command-line Honeyfeed Reader
+version: 0.1.0
+
+commands:
+  - name: chapter
+    alias: c
+    help: Read a chapter directly in your terminal
+    dependencies: [gum, curl, pup, pandoc, echo, glow]
+
+    args:
+      - name: id
+        help: The ID of the target chapter
+        required: true
+
+  - name: novel
+    alias: n
+    help: Select a chapter to read directly in your terminal
+    dependencies: [gum, curl, pup, pandoc, echo, glow]
+
+    args:
+      - name: id
+        help: The ID of the target novel
+        required: true
+
+  - name: search
+    alias: s
+    help: Search and select a novel to read directly in your terminal
+    dependencies: [gum, curl, pup, pandoc, echo, glow]
+
+    args:
+      - name: title
+        help: A partial title of the target novel
+        required: true
