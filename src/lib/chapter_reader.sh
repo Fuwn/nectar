@@ -6,7 +6,7 @@ chapter_reader() {
 	# Convert chapter HTML to GitHub Flavoured Markdown (closest to Honeyfeed)
 	markdown="$(echo "${chapter_content}" |
 		pup 'div.wrap-body.div' |
-		pandoc -f html -t gfm)"
+		html2md -i)"
 
 	# Display stylised chapter in default pager (usually less)
 	echo "${markdown}" | glow -w "$(tput cols)" -p -

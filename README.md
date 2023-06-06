@@ -48,7 +48,7 @@ Complete Nectar *builds* can be located in the *[Releases](https://github.com/Fu
 
 - [Gum](https://github.com/charmbracelet/gum/)
 - [pup](https://github.com/ericchiang/pup)
-- [Pandoc](https://pandoc.org/)
+- [html2md](https://github.com/suntong/html2md)
 - [Glow](https://github.com/charmbracelet/glow)
 
 ### Help
